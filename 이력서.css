@@ -1,0 +1,22 @@
+html { font-family: "Elice Digital Baeum", "Noto Sans KR", sans-serif; }
+body {
+    margin: 0 50px 0 50px;
+}
+
+#주소{
+    background-color: papayawhip;
+}
+
+#주소 {
+    color: gray;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.야호 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.배너{}
