@@ -1,0 +1,29 @@
+#transfrom-example {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    transform: rotate(35deg);
+    margin-bottom: 50px;
+    /* transform: rotate(90deg);
+    transform: scale(1, 2);
+    transform: skew(10deg, 0);
+    transform: translate(100px, 0); */
+  }
+
+
+#transition-example {
+    background-color: black;
+    color: white;
+    width: 100px;
+  }
+
+#transition-example:hover {
+    width: 200px;
+    transition-property: width;
+    transition-duration: 3s;
+    /* transition-timing-function: ease-in; */
+    /* transition-delay: 1s;  */
+    transition: width 3s linear 1s;
+  }
+  
